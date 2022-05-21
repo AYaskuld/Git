@@ -121,7 +121,7 @@ tail -n3 qa1/Hello.txt
 ```bash
 date
 ``` 
-Задание 2  
+## Задание 2 ##
 **1) Отправить http запрос на сервер.
 http://162.55.220.72:5005/terminal-hw-request**  
 ```bash
