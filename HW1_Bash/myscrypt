@@ -1,0 +1,15 @@
+#!/bin/bash
+#3) Зайти в папку
+cd Byscrypt
+#4) Создать 3 папки
+mkdir qa1 qa2 qa3
+#5) Зайти в папку
+cd qa1
+#6) Создать 5 файлов (3 txt, 2 json)
+touch Hello.txt Git.txt Bash.txt 1.json 2.json
+#7) Создать 3 папки
+mkdir bin data temp
+#8) Вывести список содержимого папки
+ls
+#13) Переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv Git.txt Bash.txt ../qa2
