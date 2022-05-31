@@ -1,0 +1,11 @@
+Bug report structure:
+    1. Id
+    2. Summary
+    3. Description
+    4. Preconditions
+    5. Environment
+    6. Step to reproduce
+    7. Expected result
+    8. Attachments
+    9. Severity
+    10. Priority
