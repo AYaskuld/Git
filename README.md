@@ -1,4 +1,4 @@
-# HW_30_QA
+# WH GitBush
 
 **Homework for quality assurance.  
 Vadim Ksendzov's course.**
