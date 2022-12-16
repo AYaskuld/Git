@@ -123,4 +123,4 @@ git stash pop <stash@*> - восстановление изменений на �
 
 git cherry-pic <commit_hash>   
 git cherry-pic <branch_name> - перенос последнего коммита ветки branch_name  
-git cherry-pich ..<branch_name> - перенести все коммиты с ветки    
+git cherry-pich ..<branch_name> - перенести все коммиты с ветки     
