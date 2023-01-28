@@ -20,7 +20,13 @@ git config --global color.ui auto - подсветка текста
 4. GitHub -> Clone or Download -> copy SSH link  
 5. GitBash -> git clone <SSH link> <new_directory_name>  
 6. git remote -v - проверить список подключеннык репозиториев  
-  
+
+Cоздание публичного репозитория в GitHub    
+gh repo create --public    
+git add .
+git commit -m "Initial commit"
+git push --set-upstream origin master
+   
 git remote add origin <ссылка> - добавление внешних репозиториев, синхронизация  
 git remote -v / - список подключенных репозиториев в папке  
 git fetch <remote_repo_name> - получение данных из удаленного репозитория  
