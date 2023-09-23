@@ -1,4 +1,4 @@
 # WH GitBash
 
-**Quality assurance homework.** 
-Vadim Ksendzov's course.**
+**Quality assurance homework.**  
+**Vadim Ksendzov's course.**
