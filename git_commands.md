@@ -97,12 +97,12 @@ git merge squash <branch_name> - (--squash) изменения с ветки bra
 ***Склеивает несколько коммитов в один комит.***  
    
 # Cherry pick  
-**Копирование изменений коммита и запись нового коммита на текущей ветке**  
+**Копирование изменений коммита и запись нового коммита на текущей ветке(перенос коммитов)**  
 
 git cherry-pic <commit_hash>   
 git cherry-pic <branch_name> - перенос последнего коммита ветки branch_name  
-git cherry-pich ..<branch_name> - перенести все коммиты с ветки       
-   
+git cherry-pich ..<branch_name> - перенести все коммиты с ветки     
+
 # Версионирование  
 # git tag создает тег для коммита, на который ссылается указатель HEAD.  
 git tag <tag_name> - запись тега  
@@ -125,12 +125,3 @@ git stash <file_name> - помещение файла во временное х
 git stash list - список файлов в хранилище  
 git stash push <file_name> - добавление файла в хранилище на текущей ветке  
 git stash pop <stash@*> - восстановление изменений на ветку  
-  
-
-  
-# Cherry pick  
-**Копирование изменений коммита и запись нового коммита на текущей ветке(перенос коммитов)**  
-
-git cherry-pic <commit_hash>   
-git cherry-pic <branch_name> - перенос последнего коммита ветки branch_name  
-git cherry-pich ..<branch_name> - перенести все коммиты с ветки     
